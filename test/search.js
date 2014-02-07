@@ -1,6 +1,6 @@
 var async = require('async');
 
-var tmdb = require('../lib/tmdb')('7c5105894b0446bb59b01a30cf235f3b', function(err, tmdb) {
+var tmdb = require('../lib/tmdb')('YOUR_API_KEY', function(err, tmdb) {
 
 	async.series([
 		function(done) {
