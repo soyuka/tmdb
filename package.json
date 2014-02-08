@@ -1,15 +1,14 @@
 {
   "name": "tmdb-3",
   "description": "TMDB api wrapper",
-  "version": "v0.0.3",
+  "version": "v0.0.4",
   "url": "",
   "author": "Soyuka Arakuse <soyuka@gmail.com>",
   "main": "lib/tmdb",
   "license": "MIT",
   "repository": "https://github.com/soyuka/tmdb",
   "dependencies": {
-    "request": "*",
-    "async": "~0.2.10"
+    "request": "*"
   },
   "devDependencies": {
     "async": "~0.2.10"
