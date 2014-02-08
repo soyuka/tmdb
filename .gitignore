@@ -1,4 +1,4 @@
-node_modules/
+
 =======
 lib-cov
 *.seed
@@ -14,3 +14,4 @@ logs
 results
 
 npm-debug.log
+node_modules
