@@ -9,6 +9,7 @@ async.series([
 			if(err)
 				console.log(err);
 
+                              console.log(results.results[0])
 			console.log('Infos on first match');
 			tmdb.infos('movie', results.results[0].id, {language: 'fr'}, function (err, results) {
 				if(err)
@@ -27,7 +28,7 @@ async.series([
 				console.log(err);
 
 			console.log('Infos on first match');
-			tmdb.infos('tv', results.results[0].id, {language: 'fr'}, function (err, results) {
+			tmdb.season('1', results.results[0].id, {language: 'fr'}, function (err, results) {
 				if(err)
 					console.log(err);
 
