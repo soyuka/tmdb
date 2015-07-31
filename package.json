@@ -1,7 +1,7 @@
 {
   "name": "tmdb-3",
   "description": "TMDB api wrapper",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "url": "",
   "author": "Soyuka Arakuse <soyuka@gmail.com>",
   "main": "lib/tmdb",
